@@ -594,9 +594,9 @@ img {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: var(--color-white-background);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     opacity: 0.3;
+    color: var(--color-white-background);
   }
 
   .footer-form-input::placeholder {
@@ -1175,7 +1175,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-bg.jpg@2x);
+        url(../images/people-office-bg@2x.jpg);
     }
   }
 
@@ -1505,17 +1505,8 @@ img {
     margin-right: 0;
   }
   .footer-form-input {
-    background-color: transparent;
-    border: 1px solid var(--color-white-background);
-    border-radius: 4px;
     min-width: 264px;
     min-height: 40px;
-    padding-left: 16px;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: var(--color-white-background);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
   .footer-form-input::placeholder {
@@ -1523,8 +1514,6 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    padding: 8px 16px;
-    color: var(--color-white-background);
   }
 
   .footer-form-btn {
@@ -1745,7 +1734,6 @@ img {
   .modal-policy-link {
     text-decoration: underline;
     text-decoration-color: var(--color-primary-brand);
-    text-decoration-style: ;
     color: var(--color-primary-brand);
   }
 
